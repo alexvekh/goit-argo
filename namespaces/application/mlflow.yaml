@@ -23,7 +23,8 @@ spec:
      enabled: true
      primary:
       persistence:
-       enabled: false
+       enabled: true
+       existingClaim: mlflow-postgresql-data
      auth:
       postgresPassword: mlflowpass
       username: mlflow
