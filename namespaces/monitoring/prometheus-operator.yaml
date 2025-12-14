@@ -73,6 +73,8 @@ spec:
             monitor:
               enabled: true
         prometheus-node-exporter:
+          hostPort:
+            enabled: false
           service:
             port: 9200
   project: default
